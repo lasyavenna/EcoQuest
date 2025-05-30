@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Board</title>
+    <link rel="stylesheet" href="game_board.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="pointsCounter">Points: 0</div>
+        <!-- Image of the board -->
+        <img src="Path_ver2.png" alt="Game Board" class="board-image">
+        <!-- Image of the dice in the corner -->
+        <img src="dice_1.png" alt="Dice" class="dice" id="dice" onclick="rollDice()">
+        <!-- Characters (initially hidden) -->
+        <img src="Character_girl_transparent.png" alt="Girl Character" class="character" id="hero1" style="display:none;">
+        <img src="Character_boy_transparent.png" alt="Boy Character" class="character" id="hero2" style="display:none;">
+    </div>
+
+    <!-- Question Dialog -->
+    <div id="questionDialog">
+        <button id="closeDialog" onclick="closeQuestionDialog()">✖</button>
+        <h3 id="questionHeader">Question Time!</h3>
+        <p id="questionText">Question will go here!</p>
+        <div id="choices"></div>
+        <div id="resultMessage"></div>
+    </div>    
+    <script src="game_board.js"></script>
+</body>
+</html>
