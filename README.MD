@@ -66,7 +66,7 @@ Because Saving the World should start with a roll of the dice.**
 
 ## Getting Started
 **Clone the repository:
-git clone** _**https://github.com/roshia3/EcoQuest**_ 
+git clone** _**https://github.com/lasyavenna/EcoQuest**_ 
 
 **Navigate into the project directory:
 cd EcoQuest🌱**
